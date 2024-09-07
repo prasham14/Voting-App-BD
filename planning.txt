@@ -1,0 +1,8 @@
+1 . user can give votes
+2 . submit their identity or user sign in
+3 . list of candidates
+4. NOTA
+5. 1 user can vote once
+6 . count of votes of parties
+7 . unique id : adhaar number
+8 .  an admin is must who will manage and cant vote
