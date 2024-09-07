@@ -12,9 +12,9 @@ const candidateRoutes = require("./routes/candidateRoutes");
 
 app.use("/user", userRoutes);
 app.use("/candidate", candidateRoutes);
-app.use("/", (req, res) => {
-  res.json({ messge: "Hello From Prasham" })
-})
+app.get("/", (req, res) => {
+  res.send("Welcome to the Hotel");
+});
 app.listen(PORT, () => {
   console.log("listening on port 3000");
 });
