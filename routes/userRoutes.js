@@ -3,6 +3,9 @@ const router = express.Router();
 const User = require("./../models/user");
 const { jwtAuthMiddleware, generateToken } = require("./../jwt");
 
+router.get("/", (req, res) => {
+  res.send("Hello From Prasham")
+})
 router.post("/signup", async (req, res) => {
   try {
     const data = req.body;
